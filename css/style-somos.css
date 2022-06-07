@@ -1,0 +1,407 @@
+/*ESTLOS DE FUENTES*/
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url("fonts/TrebuchetMS.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "BebasNeue";
+    src: url("fonts/BebasNeue.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url("fonts/websymbols-regular-webfont.svg#webSymbolsRegular") format("svg"),
+        url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot#iefix") format("enbedded-opentype"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+/*FIN DE ESTILOS DE FUENTES*/
+
+/*ESTILOS GENERALES*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:url("../img/pattern.png");
+}
+.icon{
+    font-family: "WebSymbolsRegular";
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*FIN ESTILOS GENERALES*/
+
+/*INICIO DE CABECERA*/
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    font-family: "BebasNeue";
+    color: white;
+}
+#logo{
+    float: left;
+    width: 410px;
+    margin-top: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#logo .imagen{
+    float: left;
+    width: 200px;
+    height: 53px;
+}
+#menu{
+    float: right;
+    height: 40px;
+    background: transparent;
+}
+#menu ul li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+#menu ul li a{
+    display: block;
+    color: aqua;
+    text-decoration: none;
+    transition: all 200ms;
+}
+#menu ul li a:hover{
+    color: rgba(181, 233, 233, 0.979);
+    transform: scale(1.2,1.2);
+}
+/*FIN DE CABECERA*/
+
+/*INICIO DE BANNER*/
+#banner{
+    width: 98%;
+    height: 374px;
+    background: url(../img/backbanner.jpg);
+    border: 5px white solid;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+#banner h1{
+    display: block;
+    width: 455px;
+    font-family: "Bebasneue";
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 1px gray;
+    margin: 0px auto;
+    /**para animacion h1**/
+    animation-name: text-moving;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+@keyframes text-moving{
+    0%{
+        transform: translateX(210%);
+    }
+    
+    100%{
+        transform: translateX(-210%);
+    }
+}
+/*FIN DE BANNER*/
+
+/*INICIO DE BARRA LATERAL IZQUIERDO*/
+#lateraliz{
+    width: 300px;
+    min-height: 600px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url("../img/lateralizq.jpg");
+    background-repeat:no-repeat;
+    background-size:auto;
+    border: 1px white solid;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px gray;
+    /*animaciones lateral*/
+    animation-name: banner-izquierdo;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes banner-izquierdo{
+    0%{
+        background-position: 0px 0px;
+    }
+    100%{
+        background-position: -978px 0px;
+    }
+
+}
+/*fin animaciones*/
+
+/*FIN DE BARRA LATERAL IZQUIERDO*/
+
+/*INICIO DE LAS TARJETAS INFORMATIVAS*/
+#info{
+    float: left;
+    width: 650px;
+    margin-left: 24px;
+}
+.card{
+    float: left;
+    width: 293px;
+    height: 289px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    background: white;
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+.card:hover{
+    cursor: pointer;
+    transform:scale(1.05,1.05);
+    background: #ccc;
+}
+.card .icon{
+    display: block;
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    line-height: 120px;
+    text-align: center;
+    margin: 0px auto;
+}
+.card .category{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    font-family: "TrebuchetMS";
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+}
+.card .descripcion{
+    font-family: "TrebuchetMS";
+    text-align: center;
+    color: #00538c;
+
+}
+/*FIN DE LAS TARJETAS INFORMATIVAS*/
+
+/*INICIO DE BARRA LATERAL DERECHO*/
+#lateralde{
+    width: 300px;
+    min-height: 600px;
+    float:right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background: url("../img/lateralizq.jpg");
+    /*background-repeat:no-repeat;*/
+    background-size:auto;
+    background-position: -300px 0px;
+    border: 1px white solid;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px gray;
+    /*inicio de animaciones*/
+    animation-name: banner-derecho;
+    animation-duration:40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes banner-derecho{
+    0%{
+        background-position: -300px 0px;
+    }
+    100%{
+        background-position: -1278px 0px;
+    }
+}
+/*fin de animaciones*/
+/*FIN DE BARRA LATERAL DERECHO*/
+
+/*INICIO DE PIE DE PAGINA*/
+#footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    overflow: hidden;
+}
+#menu-footer{
+    float: left;
+    width: 320px;
+    height: 255px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-family: "TrebuchetMS";
+}
+#footer a{
+    text-decoration: none;
+    color: #37bcf9;
+    margin-top: 0px;
+}
+#footer ul{
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+}
+#footer ul li{
+    margin-top: 10px;
+    padding: 5px;
+
+}
+#footer ul li a{
+    display: block;
+    height: 40px;
+    transition: all 300ms;
+}
+#footer ul li:hover a{
+    padding-left: 40px;
+    color: white;
+    width: 100%;
+}
+#sociales{
+    display: block;
+    float: left;
+    margin-left: 81px;
+    width: 355px;
+    height: 255px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+#footer .info-sociales{
+    color: #37bcf9;
+    font-family: "BebasNeue";
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+#iconos-sociales{
+    height: 100px;
+}
+#iconos-sociales .facebook,
+#iconos-sociales .twitter,
+#iconos-sociales .youtube{
+    float: left;
+    display: block;
+    font-size: 45px;
+    width: 60px;
+    height: 60px;
+    margin-left:45px;
+    /*line-height: 100px;*/
+}
+#iconos-sociales .overly{
+    color: #37bcf9;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -8px;
+    padding: 5px;
+    display: block;
+    height: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px #ccc;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-10%);
+    opacity: 0;
+    transition: all 300ms;
+}
+#iconos-sociales div:hover .overly{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+#twitt-icon{
+    float: left;
+    display: block;
+    font-size: 20px;
+}
+#sociales .email{
+    display: block;
+    float: left;
+    width: 333px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 300ms;
+    
+}
+#sociales .email:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(1.1,1.1);
+}
+#sociales .email a{
+    display: block;
+    float: left;
+    font-size: 45px;
+}
+#sociales .email p{
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#info-footer{
+    display: block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 460px;
+}
+#store{
+    margin-left: 96px;
+}
+#footer #store img{
+    width: 243px;
+    height: 95px;
+}
+#footer #store a:last-child img{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 210px;
+    height: 65px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 17px;
+}
+#info-footer h2{
+    color: #37bcf9;
+    font-family: "BebasNeue";
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+#info-footer p:last-child{
+    margin-top: 5px;
+}
+#info-footer p:last-child a{
+    color: blue;
+}
+#info-footer p:last-child a:hover{
+    color: red;
+    transform: scale(1.5, 1.5);
+}
+
+
+/*FIN DE PIE DE PAGINA*/

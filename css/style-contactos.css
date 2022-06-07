@@ -1,0 +1,129 @@
+body { 
+    background-size: 50vw 50vh
+    }
+
+    
+ form {
+    width: 680px;
+    margin: auto;
+    background: rgba(0,0,0,8);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+   
+    }
+
+
+    
+h1 {
+    text-align: center;
+    margin: 0%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    }
+img {
+    
+        
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 2%;
+    
+        
+        }
+p {
+    text-align: center;
+    
+    }    
+    
+input , textarea {
+    
+     width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+     box-sizing: border-box;
+    font-size: 17px;
+    
+    }
+     
+textarea {
+
+    
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    }
+#Boton {
+    
+    background: #CB4335;
+    color: azure;
+    padding: 20px;
+    
+    }
+     
+#Boton:hover {
+
+    cursor: pointer;
+    
+    }
+@media (max-width:480px)
+ {
+
+    formı 
+    {
+
+         width:100%;
+    }
+    
+    
+}
+main {
+    background: #AED6F1 ;
+}
+
+    
+    
+    
+/*ESTLOS DE FUENTES*/
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url("fonts/TrebuchetMS.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "BebasNeue";
+    src: url("fonts/BebasNeue.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url("fonts/websymbols-regular-webfont.svg#webSymbolsRegular") format("svg"),
+        url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot#iefix") format("enbedded-opentype"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+/*FIN DE ESTILOS DE FUENTES*/
+
+/*ESTILOS GENERALES*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:url("../img/pattern.png");
+}
+.icon{
+    font-family: "WebSymbolsRegular";
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*FIN ESTILOS GENERALES*/

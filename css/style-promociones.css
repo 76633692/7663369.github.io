@@ -1,0 +1,74 @@
+h1{
+    color: white;
+    text-shadow: 1px 2px 2px color black, 0 0 25px blue, 0 0 5px color blue;
+    text-align: center;
+}
+
+.bloquesGaleria {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.bloquesPromocionTexto {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.bloquesPromocionImagen {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px color lightskyblue, 0 6px 20px 0 color rgba(0,0,0,0.19);
+    float: left;
+    width: 100px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    display: grid;
+    float: left;
+}   
+
+div.galeria:hover{
+    border: 1px solid color lightcoral;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+
+a:hover{
+    font-weight: 600;
+    color: rgb(5, 4, 7);
+}  
+
+
+div.promocion{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px cornflowerblue, 0 6px 20px 0 color(0,0,0,0.19);
+    float: left;
+    width: 450px;
+    text-align: center;
+}
+
+div.promocion img{  
+    width: 100%;
+    margin-right: 50px;
+    height: auto;
+    float: left;
+    display: grid;
+}
+
+
+
+
+
