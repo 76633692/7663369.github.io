@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peliculas</title>
+    <link rel="icon" type="favicon/x-icon" href="../img/Logo.png">
+    <link rel="stylesheet" href="./../css/style.css"/>
+    <link rel="stylesheet" href="./../css/style-peliculas.css" />
+    <link rel="stylesheet" href="./../css/boots-peliculas.min.css" />
+    <script src="./../js/boot-peliculas.min.js"></script>
+  </head>
+  <body>
+    <!--INICIO DE CABECERA-->
+    <header id="header">
+      <div class="wrap">
+          <div id="logo">
+              <a href="../Index.html"><img class="imagen" src="../img/logo.png" title="Breaking movie"></a>                
+          </div>
+          <nav id="menu">
+              <ul>
+                  <li><a href="../vistas/vistas-peliculas.html">PELICULAS</a></li>
+                  <li><a href="../vistas/Lugares.html">CINES</a></li>
+                  <li><a href="../vistas/vistas-promociones.html">DULCERIA/PROMOCIONES</a></li>
+                  <li><a href="../vistas/contacto.html">CONTACTO</a></li>
+                  <li><a href="../vistas/login.html">LOGIN</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <!--FIN DE CABECARA-->
+  
+
+    <div class="container">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home"
+            type="button"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+          >
+            CARTELERA
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile"
+            type="button"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+          >
+            PROXIMAMENTE
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-content container" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="home"
+        role="tabpanel"
+        aria-labelledby="home-tab"
+      >
+        <br />
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/uncharter.jpg"
+                class="card-img-top"
+                style="width: 45.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Uncharted: Fuera del mapa</h5>
+                <p class="card-text">Aventura, 2h, +14</p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal1"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/sonic.jpg"
+                class="card-img-top"
+                style="width: 40%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sonic 2: La pelicula</h5>
+                <p class="card-text">Animación, 2h 10min, APT</p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal2"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/morbius.jpg"
+                class="card-img-top"
+                style="width: 45.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Morbius</h5>
+                <p class="card-text">Acción, 1h 50min, +14</p>
+                
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal3"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/ns2.jpg"
+                class="card-img-top"
+                style="width: 45.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">No me digas solterona 2</h5>
+                <p class="card-text">Comedia, 1h 50min, +14</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal4"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/lsd.jpg"
+                class="card-img-top"
+                style="width: 40%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Animales fantasticos: Los secretos de Dumbledore
+                </h5>
+                <p class="card-text">Aventura, 2h 30min, APT</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal5"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/desesperada.jpg"
+                class="card-img-top"
+                style="width: 44.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Desesperada</h5>
+                <p class="card-text">thriller, 1h 30min, +14</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal6"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/cmon.jpg"
+                class="card-img-top"
+                style="width: 45.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cmon Cmon: Siempre adelante</h5>
+                <p class="card-text">Drama, 1h 50min, +14</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal7"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/batman.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Batmman</h5>
+                <p class="card-text">Acción, 3h, +14</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal8"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/peliculas/apocalipsis.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Apocalipsis: El origen</h5>
+                <p class="card-text">Terror, 1h 30min, +14</p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal9"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="profile"
+        role="tabpanel"
+        aria-labelledby="profile-tab"
+      >
+        <br />
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/amigos.jpg"
+                class="card-img-top"
+                style="width: 40%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cosas de amigos</h5>
+                <p class="card-text">
+                  28 de abril 2022 <br />
+                  Comedia, 2h 14min, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal10"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/ciudad.jpg"
+                class="card-img-top"
+                style="width: 38.6%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">La ciudad perdida</h5>
+                <p class="card-text">
+                  21 de abril 2022 <br />
+                  Aventura, 2h, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal11"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/downton.jpg"
+                class="card-img-top"
+                style="width: 42.9%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Downton abbey 2</h5>
+                <p class="card-text">
+                  28 de abril 2022 <br />
+                  Drama, 2h, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal12"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/exorcismo.jpg"
+                class="card-img-top"
+                style="width: 42.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">El exorcismo</h5>
+                <p class="card-text">
+                  09 de junio <br />
+                  Terror, 1h 40min, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal13"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/hombre.jpg"
+                class="card-img-top"
+                style="width: 40%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">El hombre del norte</h5>
+                <p class="card-text">
+                  21 de abril 2022 <br />
+                  Aventura, 2h, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal14"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/jurassic.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jurassic World: Dominio</h5>
+                <p class="card-text">
+                  02 de junio 2022 <br />
+                  Acción, 2h, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal15"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/lago.jpg"
+                class="card-img-top"
+                style="width: 45.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">EL lago de los muertos</h5>
+                <p class="card-text">
+                  28 de abril 2022 <br />
+                  Terror, 2h, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal17"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/lightyear.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lightyear</h5>
+                <p class="card-text">
+                  16 de junio 2022 <br />
+                  Animación, 1h 40min, APT
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal18"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/llamas.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Llamas de venganza</h5>
+                <p class="card-text">
+                  12 de mayo 2022 <br />
+                  Acción, 2h, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal19"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/lxi.jpg"
+                class="card-img-top"
+                style="width: 45.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">LXI(61)</h5>
+                <p class="card-text">
+                  21 de abril 2022 <br />
+                  Drama, 1h 20min, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal20"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/mascotas.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">DC Super Pets</h5>
+                <p class="card-text">
+                  28 de julio 2022 <br />
+                  Animación, 2h, APT
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal21"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/minions.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Minionns: Nace un villano</h5>
+                <p class="card-text">
+                  30 de junio 2022 <br />
+                  Animacón, 2h, APT
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal22"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/pequeño.jpg"
+                class="card-img-top"
+                style="width: 31%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">El pequeño ninja 2</h5>
+                <p class="card-text">
+                  12 de mayo 2022 <br />
+                  Animación, 1h 30min, APT
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal23"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/strange.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Doctor Strange en el multiverso de la locura
+                </h5>
+                <p class="card-text">
+                  05 de mayo 2022 <br />
+                  Acción, 2h 10min, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal24"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="./../img/proximamente/telefono.jpg"
+                class="card-img-top"
+                style="width: 41.5%; margin: 0px auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">El telefono negro</h5>
+                <p class="card-text">
+                  23 de junio 2022 <br />
+                  Terror, 1h 50min, +14
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal25"
+                >
+                  VER SIPNOPSIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---INICIO DE PIE DE PAGINA-->
+    <footer id="footer">
+      <div class="wrap">
+          <div id="menu-footer">
+              <ul>
+                  <li><a href="./somos.html">Nosotros</a></li>
+                  <li><a href="#">Trabaja con nosotros</a></li>
+                  <li><a href="#">Politicas de privacidad</a></li>
+              </ul>
+          </div>
+          <div id="sociales" class="sociales-box">
+              <p class="info-sociales">
+                  Síguenos si amas las películas o quieres enterarte de nuestras promociones, concursos y más.
+              </p>
+              <div id="iconos-sociales">
+                  <div class="facebook">
+                      <a href="#" class="icon">f</a>
+                      <p class="overly">
+                          Facebook
+                      </p>
+                  </div>
+                  <div class="twitter">
+                      <a href="#" class="icon">t</a>
+                      <p class="overly">
+                          Twitter
+                      </p>
+                  </div>
+                  <div class="youtube">
+                      <a href="#" class="icon">y</a>
+                      <p class="overly">
+                          YouTube
+                      </p>
+                  </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="email">
+                  <a href="#" class="icon">@</a>
+                  <p class="info-sociales">
+                      Atencion de consultas o incidencias por favor Contactenos
+                  </p>
+              </div>
+
+          </div>
+          <div id="info-footer">
+              <p class="info-sociales">
+                  El universo Breaking movie también está al alcance de tus dedos.
+              </p>
+              <p id="store">
+                  <a href="#">
+                      <img class="icon" src="../img/playstore.png" alt="Cargando imagen">
+                  </a>
+                  <a href="#">
+                      <img class="icon" src="../img/appstore.png" alt="Cargando Imagen">
+                  </a>
+              </p>
+
+              <h2>Informacion publica de Breaking Movie</h2>
+              <p class="info-sociales">
+                  Para acceder a nuestra información pública que se difunde en el Portal del Mercado de Valores hacer
+                  <a href="#">click aquí.</a>
+              </p>
+          </div>
+      </div>
+      </div>
+  </footer>
+  <!--FIN DE PIE DE PAGINA-->
+
+    <div
+      class="modal fade"
+      id="modal1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Uncharter: Fuera del mapa
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Nathan Drake y su compañero Victor Sullivan se adentran en la
+            peligrosa búsqueda del "mayor tesoro jamás encontrado". Al mismo
+            tiempo, rastrean pistas que puedan conducir al hermano perdido de
+            Drake. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="363"
+              src="https://www.youtube.com/embed/kVgsnqAp0Kk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Sonic 2: La pelicula
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Celebrando la alegría de estar de vuelta con tus mejores amigos, el
+            equipo de idiotas original regresa para otra ronda de situaciones
+            hilarantes, tremendamente absurdas y, a menudo peligrosas con un
+            poco de ayuda de un emocionante nuevo elenco. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="363"
+              src="https://www.youtube.com/embed/mgnMoJ1FERw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Morbius</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Ambientada en el universo de Spider Man, se centra en uno de sus
+            villanos más icónicos, Morbius, un doctor que tras sufrir una
+            enfermedad en la sangre y fallar al intentar curarse, se convirtió
+            en un vampiro. <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="363"
+              src="https://www.youtube.com/embed/C4XP8FSqTTE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal4"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              No me digas solterona 2
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Superados los males de amor, Patricia se convierte en el paño de
+            lágrimas de José: su mejor amigo está inesperadamente devastado por
+            una reciente ruptura amorosa. Patricia accede a aconsejar, pero
+            pronto se da cuenta de que está enamorada de él. <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="295"
+              src="https://www.youtube.com/embed/oMEcBqi4JIQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal5"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Animales fantasticos: Los secretos de Dumbledore
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            La historia tiene lugar en Río de Janeiro, Brasil y conduce a la
+            participación del Mundo Mágico en la Segunda Guerra Mundial. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/Rp7YtN_094I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal6"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Desesperada</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Amy Carr, una madre que acaba de enviudar, hace todo lo posible por
+            devolver la normalidad a la vida de sus hijos en su pequeña ciudad.
+            Cuando sale a correr por el bosque, se encuentra con que su pueblo
+            se ha sumido en el caos al producirse un tiroteo en la escuela de su
+            hijo. A kilómetros de distancia, a pie en el denso bosque, Amy corre
+            desesperadamente contra el tiempo para salvar a su hijo. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/5Ca1mXFv2Fc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal7"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Cmon Cmon: Siempre adelante
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Tras su interpretación como El Guasón, que le valió un premio Oscar,
+            Joaquin Phoenix, será el protagonista del próximo proyecto de Mike
+            Mills, director de “Beginners” (2010) y “20th Century Women” (2016).
+            En este film interpretará a un periodista que -por cuestiones
+            familiares- tiene que cuidar a su joven sobrino mientras se embarca
+            en un entrañable viaje, donde entrevistará a niños de todo el país
+            sobre el futuro del mundo. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/0GnOo5-j4Ok"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal8"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Batman</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            En su segundo año luchando contra el crimen, Batman explora la
+            corrupción existente en la ciudad de Gotham y el vínculo de esta con
+            su propia familia. Además, entrará en conflicto con un asesino en
+            serie conocido como "el Acertijo". <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/FUP3P9_mqvA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal9"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Apocalipsis: El origen
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Cuando una terrible enfermedad se empieza extender por todos los
+            pasillos de un hotel, un par de víctimas tratarán de luchar por la
+            supervivencia y de escapar de un oscuro corredor de una horrible
+            matanza. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/jwgivthghxI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal10"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Cosas de amigos
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            “Cosas de amigos”, el nuevo proyecto fílmico de Giovanni Ciccia,
+            esta vez en la silla de director es una comedia sobre la crisis que
+            estalla al interior de grupo de amigos cuando uno de ellos decide
+            vivir su sexualidad abiertamente. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/o_RbCZ8ygEI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal11"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              La ciudad perdida
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Queriendo demostrar que puede ser un héroe en la vida real y no solo
+            en las páginas de los libros, Alan se pone en marcha para
+            rescatarla. Forzados a tener a una épica aventura en la jungla, la
+            improbable pareja deberá trabajar en conjunto para sobrevivir a la
+            naturaleza y encontrar el antiguo tesoro antes de que se pierda para
+            siempre. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/Jhl2v32cKzc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal12"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Downton Abbey</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Los Crawleys y sus sirvientes se preparan para una visita real por
+            parte del Rey y la Reina en su majestuosa mansión en la campiña
+            inglesa. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/YPrNs8E-t8E"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal13"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">El exorcismo</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            La historia de la casa más encantada de Inglaterra. En la década de
+            1930, un joven reverendo, su esposa y su hija se mudan a una mansión
+            que guarda un terrible secreto. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/doIF9xZJs_s"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal14"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              El hombre del norte
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Del visionario director Robert Eggers llega EL HOMBRE DEL NORTE, una
+            trepidante aventura épica que sigue la historia de un joven príncipe
+            vikingo decidido a vengar la muerte de su padre. La película cuenta
+            con un estelar reparto encabezado por Alexander Skarsgård, Nicole
+            Kidman, Claes Bang, Anya Taylor-Joy, Ethan Hawke, Björk y Willem
+            Dafoe. <br />
+            <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/7HZ4tBQEiB0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal15"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Jurassic world: Dominio
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Tiempo después de los sucesos de Jurassic World: Fallen Kingdom, los
+            dinosaurios han vuelto a tomar el control en toda la tierra y los
+            humanos tendrán que aprender a convivir con ellos mientras que un
+            nuevo problema pondrá alta tensión a la situación. Owen Grady y
+            Claire Dearing unirán fuerzas junto con la ayuda del famoso
+            paleontólogo Alan Grant, la doctora Ellie Satler y el Doctor Ian
+            Malcolm para resolverlo. <br />
+            <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/9m9yRauMJIQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal16"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Jurassic world: Dominio
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Tercera entrega de la saga 'Jurassic World', que volverá a contar
+            con Colin Trevorrow y Steven Spielberg como productores ejecutivos y
+            con guion co-escrito por el propio Trevorrow y Emily Carmichael,
+            responsable del guion de cintas como 'Pacific Rim: Insurrección'.
+            Los productores Frank Marshall y Pat Crowley también regresarán para
+            estar detrás de esta tercera entrega de 'Jurassic World' que ha sido
+            definida por Trevorrow como la película final de esta nueva
+            trilogía. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/zVbl836Mfro"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal17"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              El lago de los muertos
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            El lago de los muertos (Lake of the Death) es una película de
+            Noruega dirigida por Nini Bull Robsahm, la cual pone en jaque a sus
+            protagonistas, quienes se ven inmiscuidos en fenómenos paranormales
+            y espíritus malignos tras la muerte de un hombre en el lago que
+            acompaña a dicha cabaña. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/osWSqDwQQKk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal18"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Lightyears</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Esta nueva precuela de la saga Toy Story, se centra en la figura de
+            uno de sus protagonistas, Buzz Lightyear. Pero, en esta ocasión, no
+            se centra en el popular muñeco articulado, sino en el piloto humano
+            en el que estaba inspirado el juguete. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="360"
+              src="https://www.youtube.com/embed/lKLqrpYNfnA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal19"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Llamas de venganza
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            En una nueva adaptación del clásico thriller de Stephen King
+            realizada por los productores de El Hombre Invisible, una niña con
+            poderes extraordinarios piroquinéticos lucha por proteger a su
+            familia y a sí misma de unas fuerzas siniestras que pretenden
+            capturarla y controlarla. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/xzhz1PjCigI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal20"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">LXI (61)</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Humberto Solano se esfuerza en buscar un estilo de vida alternativo
+            al vértigo de la ciudad. Una noche recibe una llamada que alterará
+            su rutina y pondrá a prueba su búsqueda. <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="294"
+              src="https://www.youtube.com/embed/GaYnSNaQYCY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal21"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">DC Super pets</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Película de animación protagonizada por las mascotas de los
+            superhéroes de DC Cómics. Una pandilla que se dedica a la lucha
+            contra el crimen mientras sus dueños, Superman, Batman, Aquaman,
+            Linterna Verde y Wonder Woman, están de vacaciones. Este filme de
+            Warner Bros. Animation es una adaptación a la gran pantalla de la
+            serie de televisión Super-Pets del canal infantil Cartoon Network.
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/1jkw2JPCl18"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal22"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Minions: Nace un villano
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Son los años 70 y Gru crece en un barrio residencial, en pleno boom
+            de los peinados cardados y los pantalones de campana. Como fan
+            incondicional de un famoso supergrupo de villanos, 'Los salvajes
+            seis', Gru idea un plan para demostrarles que es lo suficientemente
+            malvado como para trabajar con ellos. Por suerte, cuenta con la
+            ayuda de sus fieles seguidores, los Minions, siempre dispuestos a
+            sembrar el caos. Juntos, Kevin, Stuart, Bob, y Otto -un nuevo Minion
+            con aparato en los dientes y desesperado por sentirse aceptado-
+            desplegarán su potencial para construir junto a Gru su primera
+            guarida, experimentar con sus primeras armas y llevar a cabo sus
+            primeras misiones. <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/MO019NU9XUk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal23"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              El pequeño ninja
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Rocky, Colt y Tum Tum son tres hermanos que, desde muy pequeños, han
+            sido entrenados en el arte del Ninjitsu por su abuelo, Mori Tanaka.
+            Un día, un viejo "amigo" de éste, Hugo Snyder, vuelve a dar señales
+            de vida. El FBI le está investigando por una serie de turbios
+            asuntos y pretende sacárselos de encima de cualquier manera.
+            Aprovechando que el padre de los chicos trabaja en el FBI, decide
+            secuestrarlos creyendo que así se librará de la investigación. Sin
+            embargo, los chicos le pondrán las cosas más complicadas de lo que
+            creía en principio. <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/VJ9k7uKmdSk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal24"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              El doctor Strange enel multiverso de la locura
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            En esta nueva aventura, el Doctor Strange va a poner a prueba los
+            límites de sus poderes y esto le llevará a explorar una nueva
+            dimensión de sus capacidades. Como nunca antes, el famoso hechicero
+            de Marvel explorará los oscuros rincones del Multiverso, donde
+            deberá contar con nuevos y viejos aliados si quiere sobrevivir a las
+            peligrosas realidades alternativas del Multiverso y enfrentarse a un
+            nuevo misterioso enemigo. <br />
+            <br />
+
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/KREBGtEeW9U"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modal25"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              El telefono negro
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            El teléfono Negro es una cinta de horror y suspenso, coescrita y
+            dirigida por Scott Derrickson (Doctor Strange), que sigue la
+            historia de John Finney, un chico de 13 años, quien, sin entender
+            cómo, se descubre encerrado en el sótano de un misterioso y terrible
+            hombre conocido como Al, rodeado de los cadáveres de media docena de
+            niños asesinados. <br />
+            <br />
+            <iframe
+              width="465"
+allowTransparency="true"
+              height="395"
+              src="https://www.youtube.com/embed/kQ3EMxTAwXY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
